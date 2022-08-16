@@ -1,3 +1,9 @@
-#cardFormulario{
-    background-color: rgb(95, 152, 185);
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+#cardFormulario {
+  background-color: rgb(216, 53, 91);
 }
