@@ -47,7 +47,7 @@ const Formulario = () => {
 
   return (
     <div className="m-5">
-      <Card>
+      <Card className="mb-4">
         <Card.Header>Administrar colores</Card.Header>
         <Card.Body id="cardFormulario" className="d-flex">
           <div className="col-4 d-flex justify-content-center">

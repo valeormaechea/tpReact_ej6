@@ -4,12 +4,16 @@ import Button from "react-bootstrap/Button";
 
 const Colores = (props) => {
   return (
-    <div className="d-flex">
+    <div className="mx-2 mb-3">
       <Card>
         <Card.Body>
           <Card.Title>{props.color}</Card.Title>
-
-          <div id="imgColor" style={{ backgroundColor: props.codColor }}></div>
+          <Card.Subtitle>{props.codColor}</Card.Subtitle>
+          <div
+            id="imgColor"
+            className="my-3"
+            style={{ backgroundColor: props.codColor }}
+          ></div>
 
           <Button
             variant="danger"
